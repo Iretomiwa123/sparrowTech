@@ -242,17 +242,17 @@ margin-top: 20px;
     .our-success-numbers h1 {
         font-size: 1.5rem;
     }
-
-    .history .hist {
-        flex-direction: column;
+    .hist{
+        gap: 0px;
+        display: block;
     }
     .history .img {
         max-width: 100%;
         text-align: center;
         margin-bottom: 20px;
     }
-    .history .text {
-        padding: 0;
+    .hist .text {
+        padding: 20px;
     }
     .Team .div img {
         width: 130px;
@@ -318,7 +318,7 @@ ff p{
        max-height: 450px;
     }
     .Team .div {
-        flex: 1 1 calc(50% - 20px); 
+        flex: 1 1 calc(50% - 10px); 
         background-color: transparant !important;
         text-align: center;
     }
@@ -327,6 +327,7 @@ ff p{
         max-width: 100% !important;
         object-fit: contain;
         height: auto; 
+        margin-top: 10px;
         margin-bottom: 20px;
     }
     .content{
