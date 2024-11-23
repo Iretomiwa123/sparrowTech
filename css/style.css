@@ -1,0 +1,118 @@
+.navbar { 
+    background-color: #1F6FB0;
+}
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.navbar-dark .navbar-brand img {
+    margin-right: 10px;
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(31, 111, 176, 0.05);
+}
+
+.footerr {
+    background-color: rgba(31, 111, 176, 0.05);
+    padding: 20px 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+}
+.footerr h5 {
+    color: #1F1F1F;
+    font-size: 22px;
+}
+.footerr h4 {
+    color: #333333;
+    font-size: 24px;
+}
+.footerr p, .footer .link {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer a {
+    color: #333333;
+    font-size: 20px;
+}
+.form-control {
+    background-color: transparent;
+    border-right: none;
+    border: 1px solid #1F6FB0;
+    border-radius: 50px;
+}
+.input-group-append .btn {
+    background-color: transparent;
+    border: 1px solid #1F6FB0;
+    border-radius: 50px;
+    color: #1F6FB0;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.footerr .list-unstyled .link {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+.footerr .list-unstyled {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.link {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+}
+.link:hover {
+    text-decoration: none;
+    color: #1F6FB0;
+}
+.bold {
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+}
+.light {
+    color: #333333;
+    font-weight: 100;
+}
+.small {
+    color: #1F1F1F;
+    font: 20px;
+}
+
+ @media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 0.5rem 1rem;
+    }
+    .footerr{
+        padding: 20px 40px;
+    }
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+}
+
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+    
+    .footerr{
+        flex-direction: row;
+        width: 100% ;
+    }
+    }
+ 

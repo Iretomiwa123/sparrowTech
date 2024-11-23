@@ -1,0 +1,129 @@
+.container-body {
+    padding: 30px 80px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.text {
+    font-size: 20px;
+    color: #A6A8AB;
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+.cont.form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292929;
+}
+.red{
+    color: #F24822;
+}
+.cont.input-icon input, .form-control {
+    padding-left: 15px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.btn1 {
+    color: white;
+    background-color: #1F6FB0;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn2 {
+    color: #7e7e7e;
+    background-color: transparent;
+    border: 1px solid #7e7e7e;
+    font-size: 12px;
+    padding: 6px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.img {
+    background: #F1A4E7;
+}
+
+.imgh {
+    background: #789AEF;
+}
+.img, .imgh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.img img, .imgh img {
+    width: 2rem;
+}
+
+.cont.contact-option {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ft {
+    font-size: 18px;
+    color: #7e7e7e;
+}
+p{
+    color: #7e7e7e;
+    font-size: 14px;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links li a {
+    color: #1F6FB0;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .container-body {
+        padding: 20px;
+    }
+    .cont.contact-option{
+        display: none !important;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+    .cont.text {
+        font-size: 18px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .cont.form-row {
+        flex-direction: column;
+    }
+
+    .cont.contact-option {
+        flex-direction: column;
+    }
+}
