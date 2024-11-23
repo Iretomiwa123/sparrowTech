@@ -310,6 +310,9 @@ ff p{
     .inside {
         padding: 50px 40px;
     }
+    .hist .text{
+        padding: 10px 40px;
+    }
     .history {
         padding: 40px 20px;
     }
@@ -327,7 +330,6 @@ ff p{
         max-width: 100% !important;
         object-fit: contain;
         height: auto; 
-        margin-top: 10px;
         margin-bottom: 20px;
     }
     .content{
