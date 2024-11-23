@@ -1,6 +1,7 @@
 .container-body {
     padding: 30px 80px;
     margin: auto;
+    overflow-x: hidden;
 }
 
 h1 {

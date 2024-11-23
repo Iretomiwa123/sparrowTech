@@ -231,6 +231,7 @@ margin-top: 20px;
 }
 @media (max-width: 800px) {
     .Team,
+    .content,
     .faq-section{
         padding: 20px 40px !important;
     }
@@ -302,21 +303,24 @@ ff p{
 }
 @media (max-width: 670px) {
     .Team .ss {
-        display: flex; /* Ensure the parent container uses flexbox */
-        flex-wrap: wrap; /* Allow wrapping to the next row */
-        gap: 10px; /* Space between images */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .Team .div {
-        flex: 1 1 calc(50% - 10px); 
+        flex: 1 1 calc(50% - 20px); 
         background-color: transparant !important;
         text-align: center;
     }
 
     .Team .div img {
-        max-width: 100% !important;
+        max-width: 9% !important;
         object-fit: contain;
         height: auto; 
         margin-bottom: 20px;
     }
+    .content{
+        padding: 50px 20px !important;
+        }
 }
