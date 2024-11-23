@@ -307,7 +307,13 @@ ff p{
         flex-wrap: wrap;
         gap: 10px;
     }
-
+    history {
+        padding: 40px 20px;
+    }
+    .hist .img img {
+       max-width: 320px !important;
+       max-height: 450px;
+    }
     .Team .div {
         flex: 1 1 calc(50% - 20px); 
         background-color: transparant !important;
@@ -315,7 +321,7 @@ ff p{
     }
 
     .Team .div img {
-        max-width: 9% !important;
+        max-width: 100% !important;
         object-fit: contain;
         height: auto; 
         margin-bottom: 20px;
