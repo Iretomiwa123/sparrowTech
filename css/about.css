@@ -307,7 +307,10 @@ ff p{
         flex-wrap: wrap;
         gap: 10px;
     }
-    history {
+    .inside {
+        padding: 50px 40px;
+    }
+    .history {
         padding: 40px 20px;
     }
     .hist .img img {
